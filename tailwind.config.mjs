@@ -16,6 +16,8 @@ export default {
         textStart: "#000000",
         textEnd: "#001354",
         lightBlue: "#001354",
+        greyBorder: "#2222221A",
+        purpleFont: "#010D3E",
       },
       height: {
         navbar: "50px"
@@ -24,7 +26,7 @@ export default {
         'color-pattern': "url('/images/Rectangle 2.png')",
       },
       fontFamily: {
-        head: ["DM Sans", "sans-serif"],
+        head: ["Manrope", "sans-serif"],
         main: ["Inter", "sans-serif"]
       },
       spacing: {
