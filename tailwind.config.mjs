@@ -18,6 +18,8 @@ export default {
         lightBlue: "#001354",
         greyBorder: "#2222221A",
         purpleFont: "#010D3E",
+        secGradStart: "#FFFFFF",
+        secGradEnd: "#D2DCFF",
       },
       height: {
         navbar: "50px"
