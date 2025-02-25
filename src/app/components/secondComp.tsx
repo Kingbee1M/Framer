@@ -33,7 +33,7 @@ export default function SecondComp () {
             <div className="font-head text-[22px] font-[800] text-center">A more effective way to <span className="text-lightBlue">track progress</span></div>
             <div className="purpleFont break-words text-center text-[15px] text-purpleFont">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</div>
             </div>
-            <div className="bg-gradient-to-b from-secGradStart to-secGradEnd w-full flex flex-col justify-center items-center gap-6">
+            <div className="bg-gradient-to-b from-secGradStart to-secGradEnd w-full flex flex-col justify-center items-center gap-6 pb-16">
                 <Image src="/images/Product Image.svg" width={500} height={500} alt="product" className="w-full h-auto "/>
                 <div className="w-4/5 flex flex-col items-center gap-16 mt-6">
                     {feat.map((feature, index) => (
