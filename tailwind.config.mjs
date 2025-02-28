@@ -20,6 +20,8 @@ export default {
         purpleFont: "#010D3E",
         secGradStart: "#FFFFFF",
         secGradEnd: "#D2DCFF",
+        shadow: "#24262B",
+        bluryBack: "#f5f5f5"
       },
       height: {
         navbar: "50px"
@@ -51,7 +53,10 @@ export default {
       width: {
         "90p": "90%",
         "85p": "85%",
-      }
+      },
+      boxShadow: {
+        custom: "0px 0px 10px theme('colors.shadow')",
+      },
     },
   },
   plugins: [],
