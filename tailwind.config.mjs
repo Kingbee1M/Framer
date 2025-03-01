@@ -55,7 +55,7 @@ export default {
         "85p": "85%",
       },
       boxShadow: {
-        custom: "0px 0px 10px theme('colors.shadow')",
+        custom: "0px 0px 2px theme('colors.shadow')",
       },
     },
   },
