@@ -21,7 +21,8 @@ export default {
         secGradStart: "#FFFFFF",
         secGradEnd: "#D2DCFF",
         shadow: "#24262B",
-        bluryBack: "#f5f5f5"
+        bluryBack: "#f5f5f5",
+        grey: "#6F6C90",
       },
       height: {
         navbar: "50px"
@@ -55,7 +56,7 @@ export default {
         "85p": "85%",
       },
       boxShadow: {
-        custom: "0px 0px 2px theme('colors.shadow')",
+        custom: "0px 0px 5px theme('colors.shadow')",
       },
     },
   },

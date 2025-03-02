@@ -3,12 +3,14 @@ import SalesCard from "./SalesCard"
 export default function Boost () {
     const sales = [
         {
-            plan: "Business",
+            plan: "Free",
             popularity: null,
-            cost: "Free",
+            cost: "$0",
             start: "Get started for free",
-            vari: "beta" as const,
+            vari: "alpha" as const,
             tick: "/images/tickBlack.svg",
+            theme: "bg-white text-black",
+            extheme: "text-black",
             specs: [
                 "Up to 5 project members",
                 "Unlimited tasks and projects",
@@ -22,8 +24,10 @@ export default function Boost () {
             popularity: "Most Popular",
             cost: "$9",
             start: "Sign up now",
-            vari: "alpha" as const,
+            vari: "beta" as const,
             tick: "/images/tickWhite.svg",
+            theme: "bg-black text-white",
+            extheme: "text-white",
             specs: [
                 "Up to 50 project members",
                 "Unlimited tasks and projects",
@@ -39,8 +43,10 @@ export default function Boost () {
             popularity: null,
             cost: "$19",
             start: "Sign up now",
-            vari: "beta" as const,
+            vari: "alpha" as const,
             tick: "/images/tickBlack.svg",
+            theme: "bg-white text-black",
+            extheme: "text-black",
             specs: [
                 "Up to 5 project members",
                 "Unlimited tasks and projects",
@@ -62,7 +68,7 @@ export default function Boost () {
             <div className="purpleFont break-words text-center text-[15px] text-purpleFont">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</div>
             <div className="w-full flex flex-col justify-center items-center mt-20 gap-10">
                 {sales.map ((Sales, index) => (
-                    <SalesCard key={index} plan={Sales.plan} popularity={Sales.popularity} cost={Sales.cost} start={Sales.start} vari={Sales.vari} tick={Sales.tick} specs={Sales.specs} />
+                    <SalesCard key={index} plan={Sales.plan} popularity={Sales.popularity} cost={Sales.cost} start={Sales.start} vari={Sales.vari} tick={Sales.tick} theme={Sales.theme} extheme={Sales.extheme} specs={Sales.specs} />
                 ))}
             </div>
         </div>

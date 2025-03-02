@@ -15,8 +15,8 @@ const UIButton: React.FC<UIButtonProps> = ({
   const variants = {
     primary: "bg-black text-white hover:bg-white hover:text-black",
     secondary: "text-black hover:bg-gray-700",
-    alpha: "bg-black text-white hover:bg-lightBlue",
-    beta: "bg-white text-black hover:bg-lightBlue"
+    alpha: "bg-black text-white hover:bg-lightBlue w-4/5",
+    beta: "bg-white text-black hover:bg-lightBlue w-4/5"
   };
 
   return (
