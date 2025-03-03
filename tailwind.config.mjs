@@ -23,6 +23,7 @@ export default {
         shadow: "#24262B",
         bluryBack: "#f5f5f5",
         grey: "#6F6C90",
+        softGrey: "#BCBCBC"
       },
       height: {
         navbar: "50px"
@@ -57,6 +58,9 @@ export default {
       },
       boxShadow: {
         custom: "0px 0px 5px theme('colors.shadow')",
+      },
+      backgroundImage: {
+        "text-gradient": "linear-gradient(to bottom, #000000, #001354)",
       },
     },
   },

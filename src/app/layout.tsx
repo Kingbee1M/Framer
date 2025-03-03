@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "./components/navbar";
 import TopBar from "./components/TopBar";
 import { ReactNode } from "react";
+import Fotter from "./components/Fotter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <TopBar />
         <NavBar />
         {children}
+        <Fotter />
       </body>
     </html>
   );

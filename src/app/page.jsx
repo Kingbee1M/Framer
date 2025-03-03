@@ -3,6 +3,7 @@ import FirstComp from "./components/firstComp";
 import SecondComp from "./components/SecondComp";
 import Everything from "./components/Everything";
 import Boost from "./components/Boost";
+import SignUp from "./components/SignUp";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <Image src="/images/Testimonials.svg" width={500} height={500} alt="logo" className="w-full h-auto block md:hidden lg:hidden"/>
     <Image src="/images/Testimonials (1).svg" width={500} height={500} alt="logo" className="w-full h-auto hidden md:block lg:hidden"/>
     <Image src="/images/Testimonials (2).svg" width={500} height={500} alt="logo" className="w-full h-auto hidden md:hidden lg:block"/>
+    <SignUp />
     </div>
   );
 }
