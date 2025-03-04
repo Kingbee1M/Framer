@@ -1,9 +1,11 @@
 import UIButton from "./UIButton"
 import { FaArrowRightLong } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function SignUp (){
     return (
         <div className="w-full flex justify-center items-center bg-gradient-to-b from-secGradStart from-30% to-secGradEnd to-70% py-16">
+            <Image src="/images/emojistar 1.svg" alt="emojistar" width={100} height={100} className="w-full" />
             <div className="w-4/5 font-main flex flex-col justify-center items-center gap-6 ">
             <div className="w-1/2 text-center text-[24px] font-extrabold">
                 <p>Sign Up for <span className="bg-text-gradient bg-clip-text text-transparent">free today</span></p>
@@ -14,6 +16,7 @@ export default function SignUp (){
                 <div className="flex flex-row justify-center items-center gap-2" ><UIButton variant="secondary">Learn more</UIButton><FaArrowRightLong /></div>
             </div>
             </div>
+            <Image src="/images/helix2 1.svg" alt="emojistar" width={100} height={100} className="w-full" />
         </div>
     )
 }

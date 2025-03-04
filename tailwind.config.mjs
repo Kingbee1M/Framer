@@ -23,7 +23,8 @@ export default {
         shadow: "#24262B",
         bluryBack: "#f5f5f5",
         grey: "#6F6C90",
-        softGrey: "#BCBCBC"
+        softGrey: "#BCBCBC",
+        navlink: "#5e5f66"
       },
       height: {
         navbar: "50px"

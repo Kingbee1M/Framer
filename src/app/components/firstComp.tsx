@@ -1,11 +1,12 @@
 import React from "react";
 import UIButton from "./UIButton";
+import Image from "next/image";
 
 
 export default function FirstComp() {
   return (
-    <div className= "full flex flex-col justify-center items-center md:flex-row justify-ceneter items-ceneter h-screen bg-gradient-to-t from-gradientStart to-gradientend pt-20 font-main">
-      <div className="w-85p">
+    <div className= "full flex flex-col justify-center items-top md:flex-row justify-ceneter items-ceneter bg-gradient-to-t from-gradientStart to-gradientend pt-20 font-main py-11 break-words ">
+      <div className="w-85p flex flex-col items-start md:flex-row">
       <div className="flex flex-col justify-left item-start gap-6">
       <div className="font-main text-sm">Version 2.0 is here</div>
       <div className="font-main text-5xl font-semibold text-black">Pathway to <span className="text-lightBlue">productivity</span></div>
@@ -16,9 +17,9 @@ export default function FirstComp() {
       </div>
       </div>
       <div className="w-full flex flex-row justify-center item-center">
-        <div className="hidden md:flex"><img src="./images/half-torus 1.svg" alt="visual" /></div>
-        <div className="flex"><img src="./images/Visual.svg" alt="visual" /></div>
-        <div className="hidden lg:flex"><img src="./images/cylinder 1.svg" alt="visual" /></div>
+        <Image src="./images/cylinder 1.svg" alt="visual" width={100} height={100} className="hidden md:flex w-full" />
+        <Image src="./images/Visual.svg" alt="visual" width={100} height={100} className="flex w-full" />
+        <Image src="./images/half-torus 1.svg" alt="visual" width={100} height={100} className="hidden lg:flex w-full" />
         </div>
       </div>
     </div>
