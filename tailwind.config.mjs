@@ -47,6 +47,8 @@ export default {
         20: "20px",
         30: "30px",
         40: "40px",
+        200: "200px",
+        500: "500px",
       },
       borderRadius: {
         "sml": "10px",
@@ -56,6 +58,8 @@ export default {
       width: {
         "90p": "90%",
         "85p": "85%",
+        "45p": "45%",
+        "10p": "10%"
       },
       boxShadow: {
         custom: "0px 0px 5px theme('colors.shadow')",
