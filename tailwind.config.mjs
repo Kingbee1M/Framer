@@ -59,7 +59,10 @@ export default {
         "90p": "90%",
         "85p": "85%",
         "45p": "45%",
-        "10p": "10%"
+        "30p": "30%",
+        "25p": "25%",
+        "15p": "15%",
+        "10p": "10%",
       },
       boxShadow: {
         custom: "0px 0px 5px theme('colors.shadow')",
