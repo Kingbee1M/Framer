@@ -18,8 +18,8 @@ export default function FirstComp() {
       </div>
       <div className="w-full flex flex-row justify-center item-center">
         <Image src="./images/cylinder 1.svg" alt="visual" width={100} height={100} className="hidden md:flex w-full md:w-1/5 md:absolute md:right-[150px] md:bottom-[450px] lg:w-10p lg:right-[550px]"/>
-        <Image src="./images/Visual.svg" alt="visual" width={100} height={100} className="flex w-full md:absolute  md:right-[-280px] md:bottom-[0px] md:w-4/5 xl:absolute lg:w-2/5 lg:right-[100px] lg:bottom-[70px]" />
-        <Image src="./images/half-torus 1.svg" alt="visual" width={100} height={100} className="hidden lg:flex w-full xl:absolute lg:w-1/5 lg:right-0 lg:bottom-[-100px]" />
+        <Image src="./images/Visual.svg" alt="visual" width={100} height={100} className="flex w-full md:absolute  md:right-[-280px] md:bottom-[0px] md:w-4/5 xl:absolute lg:w-35p lg:right-[100px] lg:bottom-[30px]" />
+        <Image src="./images/half-torus 1.svg" alt="visual" width={100} height={100} className="hidden lg:flex w-full xl:absolute lg:w-1/5 lg:right-0 lg:bottom-[-150px]" />
         </div>
       </div>
     </div>

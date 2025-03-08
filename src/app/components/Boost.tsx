@@ -62,10 +62,10 @@ export default function Boost () {
         },
     ]
     return (
-        <div className="w-full h-auto flex flex-col justify-center items-center gap-1 font-main mt-20">
+        <div className="w-full flex flex-col justify-center items-center gap-1 font-main mt-20">
             <div className="font-semibold  border-solid border-greyBorder border rounded-2xl px-3 py-2 text-[10px]">Boost your prouductivity</div>
-            <div className="font-head text-[22px] font-[800] text-center">A more effective way <span className="text-lightBlue">tract Progress</span></div>
-            <div className="purpleFont break-words text-center text-[15px] text-purpleFont">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</div>
+            <div className="font-head text-[22px] font-[800] text-center">A more effective way <p className="text-lightBlue">tract Progress</p></div>
+            <div className="purpleFont break-words text-center text-[15px] text-purpleFont md:w-3/5 lg:w-1/3">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</div>
             <div className="w-full flex flex-col justify-center items-center mt-20 gap-10">
                 {sales.map ((Sales, index) => (
                     <SalesCard key={index} plan={Sales.plan} popularity={Sales.popularity} cost={Sales.cost} start={Sales.start} vari={Sales.vari} tick={Sales.tick} theme={Sales.theme} extheme={Sales.extheme} specs={Sales.specs} />

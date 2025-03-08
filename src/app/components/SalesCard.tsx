@@ -15,7 +15,7 @@ interface salesProps {
 
 export default function SalesCard ({plan, popularity, cost, start, specs, vari, tick, theme, extheme}: salesProps) {
     return (
-        <div className={`w-4/5 h-auto shadow-custom rounded-3xl flex flex-col justify-center items-center text-center gap-5 py-12 ${theme} font-main`}>
+        <div className={`w-4/5 h-auto shadow-custom rounded-3xl flex flex-col justify-center items-center text-center gap-5 py-12 ${theme} font-main md:py-44`}>
             <div className="w-4/5">
                 <p className="w-full text-left text-grey">{plan}</p>
                 <p>{popularity}</p>
