@@ -18,11 +18,11 @@ export default function NavBar () {
         <div className="w-full flex flex-col justify-center items-center py-4 bg-navbar">
             <div className="w-full h-navbar flex flex-row justify-between items-center my-4 mx-6 md:hidden">
             <div>
-                <div><img src="./images/logosaas.svg" alt="menu" /></div>
+                <div><Image src="./images/logosaas.svg" alt="menu" width={20} height={20}/></div>
                 <div></div>
             </div>
             <div>
-                <div className="w-8"><button className="w-full h-full"onClick={toggleVisibility}><img src="./images/menu.svg" alt="menu" className="w-full h-full"/></button></div>
+                <div className="w-8"><button className="w-full h-full"onClick={toggleVisibility}><Image src="./images/menu.svg" alt="menu" width={100} height={100} className="w-full h-full"/></button></div>
             </div>
             </div>
                     <div className={`${isVisible ? " w-full h-screen fixed inset-0 flex flex-col justify-center items-center gap-y-20PX bg-white text-center z-50" : "hidden"}`}>

@@ -10,11 +10,11 @@ export default function Fotter (){
     ];
     return(
         <div className="bg-black text-softGrey font-main py-16 flex justify-center items-center">
-            <div className="w-90p flex flex-col md:justify-between lg:justify-between">
+            <div className="w-90p flex flex-col md:flex-row md:justify-between lg:justify-between">
             <div className="flex flex-col justify-start gap-5">
             <Image src="/images/logosaas (2).svg" width={60} height={60} alt="logo" />
-            <div>Effortlessly turn your ideas into a fully
-            functional, responsive, no-code SaaS website.</div>
+            <p className="md:w-1/2">Effortlessly turn your ideas into a fully
+            functional, responsive, no-code SaaS website.</p>
             <div className="flex flex-row justify-start items-center">
             <Image src="/images/Socials.svg" width={30} height={30} alt="logo" />
             <Image src="/images/Socials (1).svg" width={30} height={30} alt="logo" />
@@ -24,7 +24,7 @@ export default function Fotter (){
             <Image src="/images/Socials (5).svg" width={30} height={30} alt="logo" />
             </div>
             </div>
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start gap-4 md:flex-row lg:text-[18px] lg:gap-10">
                 {footerLinks.map(([title, content], index) => (
                     <FootLink key={index} title={title} content={content} />
                 ))}
