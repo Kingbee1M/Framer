@@ -10,7 +10,7 @@ interface featProps {
 export default function Features ({ first, second, icon}: featProps) {
 
     return (
-        <div className="md:w-1/3 lg:w-1/5 flex flex-col justify-start items-start gap-2 text-[16px]">
+        <div className="w-2/3 md:w-1/3 lg:w-1/5 flex flex-col justify-start items-start gap-2 text-[13px]">
             <div><Image src={icon} alt="icon" width={30} height={30} /></div>
             <p className="font-bold">{first}</p>
             <p>{second}</p>

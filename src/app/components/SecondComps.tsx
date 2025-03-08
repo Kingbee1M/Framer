@@ -37,7 +37,7 @@ export default function SecondComps () {
                 <Image src="/images/Product Image.svg" width={500} height={500} alt="product" className="w-full h-auto "/>
                 <Image src="/images/pyramid 1.svg" alt="pyramid" width={100} height={100} className="hidden md:flex md:w-15p md:absolute md:right-0 md:top-[20px]" />
                 <Image src="/images/torus 1.svg" alt="tarus" width={100} height={100} className="hidden md:flex md:absolute md:w-1/5 md:left-0 md:top-[200px]" />
-                <div className="w-full flex flex-col items-center gap-16 mt-6 md:w-screen md:flex-row md:flex-wrap md:justify-center lg:w-full lg:flex-row lg:flex-nowrap lg:gap-10 lg:justify-center lg:items-center">
+                <div className="w-full flex flex-col justify-center items-center gap-16 mt-6 md:w-screen md:flex-row md:flex-wrap md:justify-center lg:w-full lg:flex-row lg:flex-nowrap lg:gap-10 lg:justify-center lg:items-center">
                     {feat.map((feature, index) => (
                         <Features key={index} first={feature.first} second={feature.second} icon={feature.icon} />
                     ))}

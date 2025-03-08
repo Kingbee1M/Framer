@@ -9,7 +9,7 @@ export default function Boost () {
             start: "Get started for free",
             vari: "alpha" as const,
             tick: "/images/tickBlack.svg",
-            theme: "bg-white text-black lg:mt-[400px]",
+            theme: "bg-white text-black lg:mt-[400px] md:h-[600px]",
             extheme: "text-black",
             specs: [
                 "Up to 5 project members",
@@ -26,7 +26,7 @@ export default function Boost () {
             start: "Sign up now",
             vari: "beta" as const,
             tick: "/images/tickWhite.svg",
-            theme: "bg-black text-white lg:mt-[200px]",
+            theme: "bg-black text-white lg:mt-[200px] md:h-[600px]",
             extheme: "text-white",
             specs: [
                 "Up to 50 project members",
@@ -45,7 +45,7 @@ export default function Boost () {
             start: "Sign up now",
             vari: "alpha" as const,
             tick: "/images/tickBlack.svg",
-            theme: "bg-white text-black",
+            theme: "bg-white text-black md:h-[700px]",
             extheme: "text-black",
             specs: [
                 "Up to 5 project members",
