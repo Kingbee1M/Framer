@@ -3,7 +3,7 @@ import Image from "next/image";
 import Features from "./Features";
 
 
-export default function SecondComp () {
+export default function SecondComps () {
     const feat = [
         {
             first: "Integration ecosystem",
